@@ -12,6 +12,30 @@ for char in plain_text:
 
 print("暗号化されたテキストは「",secret_text,"」となりました。")
 
+# メッセージ鍵ありバージョン
+# from language import language
+# key = 3
+# plain_text = input("暗号化したいテキストをひらがなで入力してください。")
+# secret_text = ""
+
+# message_key = language[key]
+
+# #1文字目を鍵とするので、最初にsecret_textに加える
+# secret_text += message_key
+
+# language_size = len(language)
+# for char in plain_text:
+#     if char in language:
+#         index = language.index(char)
+#         secret_text += language[(index+key)%language_size]
+#     else:
+#         secret_text += char
+
+# print("暗号化されたテキストは「",secret_text,"」となりました。")
+
+
+
+
 # もし、あまりの考え方が難しそうなら以下のような方法をとってください。
 # for char in plain_text:
 #     if char in language:
