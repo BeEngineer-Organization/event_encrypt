@@ -51,8 +51,9 @@ def scramble_image(input_img_path, output_img_path, key, decrypt=False):
 key = 2025 # これが鍵になります
 
 # 暗号化
-scramble_image("kyoto-university.jpg", "scrambled.png", key, decrypt=False)
+img_path = input('暗号化したい画像のパスを入力してください。(ex:images/beengineer.png)：')
+scramble_image(img_path, "scrambled.png", key, decrypt=False)
 
 # 復号
-input("復号します...")
+input("復号します。Enterキーを入力してください。")
 scramble_image("scrambled.png", "restored.png", key, decrypt=True)
