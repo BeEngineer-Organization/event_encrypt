@@ -1,3 +1,11 @@
+- code_making.py
+    - シーザ暗号を暗号化するためのコードを書くファイルです
+- code_breaking.py
+    - シーザ暗号を復号するためのコードを書くファイルです
+- language.py
+    - シーザー暗号作成のための、文字をリストにして表記したファイルです
+- sample.py
+    - Python基礎文法学習時の例コード実行用のファイルです
 -  img_encrypt.pyについて
     - 生徒に、暗号の発展版としてデモとして見せる用のコード
     - beengineer.pngやkyoto-university.jpgを引数として実行すると、それを暗号化したscrambled.png, 復号したrestored.jpgが作成される。
