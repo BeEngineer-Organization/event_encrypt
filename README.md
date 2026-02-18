@@ -1,3 +1,3 @@
 -  img_encrypt.pyについて
     - 生徒に、暗号の発展版としてデモとして見せる用のコード
-    - beengineer.pngやkyoto-university.jpgを引数として実行すると、それを暗号化したscrambled.png, 復号したrestored.jpgが作成される。
+    - images/beengineer.pngやimages/kyoto-university.jpgを引数として実行すると、それを暗号化したscrambled.png, 復号したrestored.jpgが作成される。
